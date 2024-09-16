@@ -21,14 +21,14 @@ The dataset includes fundus images labeled with different stages of DR, which ar
 ## How to Run 🚀
 Follow the steps below to run the project locally.
 
-Step 1: Clone the Repository
+**Step 1: Clone the Repository**
 
 sh
 
      git clone https://github.com/DeepakGowda-Official/diabetic-retinopathy-clinical.git
      cd diabetic-retinopathy-clinical
 
-Step 2: Install the Dependencies
+**Step 2: Install the Dependencies**
 Set up a Python virtual environment and install all required packages:
 sh
 
@@ -36,14 +36,14 @@ sh
      source venv/bin/activate    # On Windows use `venv\Scripts\activate`
      pip install -r requirements.txt
 
-Step 3: Download the Dataset
+**Step 3: Download the Dataset**
 Download the dataset from Kaggle using the following link and place it in the data/raw/ folder:
 
 [Aptos 2019 Blindness Detection Dataset](https://www.kaggle.com/c/aptos2019-blindness-detection)
 
 The training images should be placed inside the train_images/ directory, and the train.csv file should be placed in the raw/ folder.
 
-Step 4: Run the Flask Web Application
+**Step 4: Run the Flask Web Application**
 Launch the Flask application by running the following command:
 
 sh
@@ -52,7 +52,7 @@ sh
 
 Visit http://127.0.0.1:5000/ in your browser to access the web interface.
 
-Step 5: Using the Application
+**Step 5: Using the Application**
  1. Upload a Fundus Image: Upload an image of the eye for DR prediction.
  2. Input Clinical Data: Enter clinical data such as age, BMI, glucose level, etc.
  3. Submit: Click submit to receive the predicted DR stage and personalized treatment     suggestions.
@@ -74,5 +74,5 @@ sh
 This script will output the model's performance metrics and any predictions based on the input data.
 
 
-  # Everything is now set up! Enjoy using the Diabetic Retinopathy Detection System.
+  # Transforming sight and saving lives—your code makes a real difference! 👁️✨
   
