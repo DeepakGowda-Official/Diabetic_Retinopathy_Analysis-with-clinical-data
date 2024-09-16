@@ -29,7 +29,9 @@ sh
      cd diabetic-retinopathy-clinical
 
 **Step 2: Install the Dependencies**
+
 Set up a Python virtual environment and install all required packages:
+
 sh
 
      python3 -m venv venv
@@ -37,6 +39,7 @@ sh
      pip install -r requirements.txt
 
 **Step 3: Download the Dataset**
+
 Download the dataset from Kaggle using the following link and place it in the data/raw/ folder:
 
 [Aptos 2019 Blindness Detection Dataset](https://www.kaggle.com/c/aptos2019-blindness-detection)
