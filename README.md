@@ -47,6 +47,7 @@ Download the dataset from Kaggle using the following link and place it in the da
 The training images should be placed inside the train_images/ directory, and the train.csv file should be placed in the raw/ folder.
 
 **Step 4: Run the Flask Web Application**
+
 Launch the Flask application by running the following command:
 
 sh
@@ -56,6 +57,7 @@ sh
 Visit http://127.0.0.1:5000/ in your browser to access the web interface.
 
 **Step 5: Using the Application**
+
  1. Upload a Fundus Image: Upload an image of the eye for DR prediction.
  2. Input Clinical Data: Enter clinical data such as age, BMI, glucose level, etc.
  3. Submit: Click submit to receive the predicted DR stage and personalized treatment     suggestions.
@@ -69,6 +71,7 @@ sh
 This will use the dataset in the data/raw/ folder to retrain the model, which will then be saved to the model/ folder as diabetic_retinopathy_model.keras.
 
 ## Predict & Evaluate the Model 🎯
+
 To evaluate the model or make predictions using a new set of images, use the following command:
 
 sh
